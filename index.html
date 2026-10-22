@@ -583,19 +583,13 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Get In Touch</h2>
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <!-- Web3Forms Access Key -->
-            <input type="hidden" name="access_key" value="a46bb850-b717-42b3-8e69-d12b1f719272">
-            
-            <!-- Email subject -->
-            <input type="hidden" name="subject" value="New Portfolio Message from Visitor">
-
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+      <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="a46bb850-b717-42b3-8e69-d12b1f719272">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
+</form>
     </section>
 
     <!-- Footer -->
